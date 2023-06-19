@@ -9,6 +9,7 @@ public class Menus {
 	private int men_price;
 	private int men_cal;
 	private String men_speciality;
+	private int order_id;
 	
 	@Id
 	public int getMen_id() {
