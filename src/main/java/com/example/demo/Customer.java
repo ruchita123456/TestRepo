@@ -11,6 +11,7 @@ private String cus_ph_no;
 private String cus_username;
 private String pwd;
 private String cus_email;
+private String address;
 @Id
 public int getCus_id() {
 	return cus_id;
@@ -48,6 +49,8 @@ public String getCus_email() {
 public void setCus_email(String cus_email) {
 	this.cus_email = cus_email;
 }
+
+
 
 
 }
